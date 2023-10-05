@@ -1,9 +1,12 @@
 .navegacao {
+    font-size: 1.1rem;
     height: 112px;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 3rem;
+    background-color: var(--vermelho-claro);
+    color: var(--branco);
 }
 
 
