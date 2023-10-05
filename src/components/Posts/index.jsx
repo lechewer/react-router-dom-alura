@@ -1,10 +1,18 @@
 import styles from './Posts.module.css'
-import posts from '../../json/posts.json'
 
-export const Post = () => {
+
+export const Post = ({post}) => {
     return(
-        <ul className={styles.posts}>
+        <div className={styles.post}> 
+            <img 
+                className={styles.capa} 
+                src={`/posts/${post.id}/capa.png`} 
+                alt="Imagem de capa do post" 
+            />
+
+            <h2 className={styles.titulo}>{post.titulo}</h2>
             
-        </ul>
+            <button className={styles.botaoLer}>Ler</button>
+        </div>
     )
 }

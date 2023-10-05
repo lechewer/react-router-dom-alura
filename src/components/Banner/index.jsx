@@ -1,6 +1,5 @@
 import styles from './Banner.module.css';
 import circuloColorido from '../../assets/circulo_colorido.png';
-import minhaFoto from '../../assets/minha_foto.png'
 
 export default function Banner() {
     return (
@@ -24,7 +23,7 @@ export default function Banner() {
 
                 <img
                     className={styles.minhaFoto}
-                    src={minhaFoto}
+                    src='https://blog.br.playstation.com/tachyon/sites/4/2022/06/c50ed40ccbee94460e55dee40a077efc09474a20.jpg'
                     alt=""
                 />
             </div>

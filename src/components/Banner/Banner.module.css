@@ -29,7 +29,10 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 18vw;
+    
+    height: 25vh;
+    width: 19vw;
+    object-fit: cover;
     border-radius: 50%;
 }
 
